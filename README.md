@@ -6,6 +6,9 @@ This project is a Flutter based application for Student Record Storage and Manag
 
  It only has code for android app. macOS, linux, windows, etc folders are not present here because I did not choose those options when prompted. 
 
+# Link to the folder that contains screenshots -
+https://drive.google.com/drive/folders/1TDc8shTrcOIAbYhuq2wbw6PSPdFD2Oqz?usp=sharing 
+
 # Features -
 1) User authentication and authorization using Firebase Authentication. - The files main.dart and login.dart contain the required code for user authentication and UI of the signup and login pages.
 2) Efficient student record management using Create, Read, Update and Delete (CRUD) operations and Firestore Database.
