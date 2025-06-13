@@ -16,10 +16,18 @@ https://drive.google.com/drive/folders/1TDc8shTrcOIAbYhuq2wbw6PSPdFD2Oqz?usp=sha
 # Technologies Used - 
 1) Android Studio - IDE for app development.
 2) Firebase -  for authentication and data management.
-3) AI tools such as ChatGPT and Gemini for assistance.
+3) AI tools such as ChatGPT and Gemini for assistance. YouTube tutorials to the aid as well.
 
 # Challenges Faced - 
 1) Integration and usage of Firebase services.
-2) Creation of new profile from sign up page and verification in the login phase.
+2) Setting up the environment for the making of the project. Used Firebase for the first time in a Flutter project.
+3) Creation of new profile from sign up page and verification in the login phase.
 
+# Future Improvements
+
+The Button functionalities of this project don't work quite as expected. I have not been able to write good code and functions to implement these. Due to this the SignUp button does not lead to the LoginPage on its own. Also the Login button does not lead to the HomeScreen. When you run the flutter project again, then it leads to the HomeScreen Page as you have already logged in earlier.
+
+The UI/UX of this app is also not that great as shown in the sample video.
+
+I will try to improve all these short-comings as I keep learning.
 
