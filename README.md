@@ -1,16 +1,22 @@
-# task1
+# task1 for Team Nougat
 
 A new Flutter project.
 
-## Getting Started
+This project is a Flutter based application for Student Record Storage and Management using CRUD operations and Firestore Database and Firebase Authentication.
 
-This project is a starting point for a Flutter application.
+ It only has code for android app. macOS, linux, windows, etc folders are not present here because I did not choose those options when prompted. 
 
-A few resources to get you started if this is your first Flutter project:
+# Features -
+1) User authentication and authorization using Firebase Authentication. - The files main.dart and login.dart contain the required code for user authentication and UI of the signup and login pages.
+2) Efficient student record management using Create, Read, Update and Delete (CRUD) operations and Firestore Database.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+# Technologies Used - 
+1) Android Studio - IDE for app development.
+2) Firebase -  for authentication and data management.
+3) AI tools such as ChatGPT and Gemini for assistance.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Challenges Faced - 
+1) Integration and usage of Firebase services.
+2) Creation of new profile from sign up page and verification in the login phase.
+
+
