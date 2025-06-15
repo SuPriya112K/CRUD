@@ -1,19 +1,22 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import 'firebase_auth_service.dart';
 import 'login_screen.dart';
 import 'home_screen.dart';
 
 // Main function to run the app
 void main() async {
-  // Ensure that Flutter widgets are initialized
   WidgetsFlutterBinding.ensureInitialized();
-  // Initialize Firebase
   await Firebase.initializeApp();
   runApp(MyApp());
 }
 
+
 class MyApp extends StatelessWidget {
+
+  final FirebaseAuthService _authService = FirebaseAuthService();
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
